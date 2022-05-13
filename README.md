@@ -35,11 +35,11 @@ This Manned Experimental Propagation Transmitter (MEPT) uses the very popular Ar
   
   {0, 4, 1},   // WSPR at top of the hour on 474.200 kHz
   
-  {2, 1, 1},   // FST4W120 at 2 minutes past the hour on 474.200 kHz
+  {2, 0, 1},   // FST4W120 at 2 minutes past the hour on 474.200 kHz
   
   {4, 4, 9},   // WSPR at 4 minutes past the hour on 10138.700 kHz
   
-  {20, 2, 0},  // FST4W300 at 20 minutes past the hour on 136.000 kHz
+  {20, 1, 0},  // FST4W300 at 20 minutes past the hour on 136.000 kHz
   
   {58, 4, 14}, // WSPR at 58 minutes past the hour on 28124600 kHz
   
