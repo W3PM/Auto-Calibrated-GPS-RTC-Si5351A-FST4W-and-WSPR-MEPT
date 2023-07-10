@@ -1,7 +1,6 @@
 # Auto-Calibrated-GPS-RTC-Si5351A-FST4W-and-WSPR-MEPT
 
-Note: Although the FST4W mode is included in this sketch, it is not optimal. FST4W uses gausian pulse width shaping which will be included in a forthcoming version of the sketch.
-
+(V3 now uses Gaussian pulse width shaping for FST4W.)
 
 This Manned Experimental Propagation Transmitter (MEPT) uses the very popular Arduino Nano and Si5351A clock generator board to generate LF – 10 meter FST4W or WSPR signals. Frequency and time accuracy are maintained by a highly accurate temperature compensated DS3231 real time clock (RTC) board or by using a GPS receiver.
 
