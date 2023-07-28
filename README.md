@@ -2,7 +2,7 @@
 
 (V3 now uses Gaussian pulse width shaping for FST4W.)
 
-Note: The FST4W modes require accurate system timing and frequency stability, especially when using the slower modes. The GPS 1 pps method of frequency calibration used in this sketch does not frequency stabilize the Si5351A during transmit periods. 
+Note: The FST4W modes require high frequency stability, especially when using the slower modes above 630m. The GPS 1 pps method of frequency calibration used in this sketch does not frequency stabilize the Si5351A during transmit periods. 
 
 This Manned Experimental Propagation Transmitter (MEPT) uses the very popular Arduino Nano and Si5351A clock generator board to generate LF – 10 meter FST4W or WSPR signals. Frequency and time accuracy are maintained by a highly accurate temperature compensated DS3231 real time clock (RTC) board or by using a GPS receiver.
 
